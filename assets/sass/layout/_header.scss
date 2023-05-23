@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: #bc5148;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    .internet{
+        width: 50%;
+        a{
+            text-decoration: none;
+            color: black;
+            i{
+                margin-left:20px ;
+            }
+        }
+        a:hover{
+            color: white;
+        }
+    }
+    .btn_add{
+        
+        .btn_1{
+            padding: 5px;
+            background-color: #bc5148;
+            border: 0 solid;
+        }
+        .btn_1:hover{
+            color: white;
+        }
+        .btn_2{
+            padding: 0px;
+            background-color: #f4b214;
+            border: 0 solid;
+            height: 40px;
+            padding: 10px;
+        }
+        .btn_2:hover{
+            color: white;
+        }
+
+    }
+}
